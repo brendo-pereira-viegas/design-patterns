@@ -2,7 +2,7 @@
 
 internal static class Application
 {
-    public static void Execute()
+    internal static void Execute()
     {
         IPaymentMethod? paymentFactory = PaymentMethodFactory.Create(PaymentType.CREDIT_CARD);
         paymentFactory?.Execute();
