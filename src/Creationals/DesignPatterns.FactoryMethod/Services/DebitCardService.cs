@@ -1,5 +1,9 @@
 ﻿namespace DesignPatterns.FactoryMethod.Services;
 
+/// <summary>
+/// Representa o produto concreto
+/// no padrão Factory Method.
+/// </summary>
 internal sealed class DebitCardService : IPaymentMethod
 {
     public void Execute() =>
