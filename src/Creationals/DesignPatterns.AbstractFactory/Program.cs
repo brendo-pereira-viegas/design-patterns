@@ -1,5 +1,5 @@
-﻿Application appLinux = new(new LinuxFactory());
-Application appWindows = new(new WindowsFactory());
-appLinux.RenderUI();
-appWindows.RenderUI();
+﻿Application linux = new(new LinuxFactory());
+Application windows = new(new WindowsFactory());
+linux.RenderUI();
+windows.RenderUI();
 Console.ReadKey();
