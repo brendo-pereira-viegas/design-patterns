@@ -1,11 +1,15 @@
 ﻿namespace DesignPatterns.AbstractFactory.Factories;
 
 /// <summary>
-/// Cria objetos concretos da 
-/// família Linux, como LinuxButton.
+/// Creates concrete UI objects 
+/// that belong to the Linux
+/// product family.
 /// </summary>
 internal sealed class LinuxFactory : IGUIFactory
 {
+    /// <summary>
+    /// Creates a concrete button.
+    /// </summary>
     public IButton CreateButton() =>
         new LinuxButton();
 }

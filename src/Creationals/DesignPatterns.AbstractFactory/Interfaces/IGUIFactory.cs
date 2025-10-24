@@ -1,7 +1,15 @@
 ﻿namespace DesignPatterns.AbstractFactory.Interfaces;
 
 /// <summary>
-/// Define uma interface responsável 
-/// por criar objetos da mesma família.
+/// Defines an interface responsible for
+/// creating objects belonging to the
+/// same product family.
 /// </summary>
-internal interface IGUIFactory { IButton CreateButton(); }
+internal interface IGUIFactory
+{
+    /// <summary>
+    /// Creates a button object
+    /// belonging to the family.
+    /// </summary>
+    IButton CreateButton();
+}
