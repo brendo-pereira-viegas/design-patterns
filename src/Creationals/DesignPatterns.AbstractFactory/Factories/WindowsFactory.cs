@@ -10,6 +10,5 @@ internal sealed class WindowsFactory : IGUIFactory
     /// <summary>
     /// Creates a concrete button.
     /// </summary>
-    public IButton CreateButton() =>
-        new WindowsButton();
+    public IButton CreateButton() => new WindowsButton();
 }
