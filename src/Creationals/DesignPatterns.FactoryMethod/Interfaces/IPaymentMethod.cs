@@ -1,7 +1,14 @@
 ﻿namespace DesignPatterns.FactoryMethod.Interfaces;
 
 /// <summary>
-/// Cada implementação concreta desta interface 
-/// define como um pagamento específico é processado.
+/// Each concrete implementation defines
+/// how a specific payment 
+/// is processed.
 /// </summary>
-internal interface IPaymentMethod { void Execute(); }
+internal interface IPaymentMethod
+{
+    /// <summary>
+    /// Executes the payment process.
+    /// </summary>
+    void Execute();
+}

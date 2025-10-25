@@ -1,8 +1,8 @@
 ﻿namespace DesignPatterns.FactoryMethod.Enums;
 
 /// <summary>
-/// Define os tipos de pagamento
-/// suportados pela fábrica.
+/// Defines the types of payment
+/// supported by the factory.
 /// </summary>
 internal enum PaymentType : byte
 {

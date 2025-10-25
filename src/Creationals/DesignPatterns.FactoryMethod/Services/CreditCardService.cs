@@ -1,11 +1,15 @@
 ﻿namespace DesignPatterns.FactoryMethod.Services;
 
 /// <summary>
-/// Representa o produto concreto
-/// no padrão Factory Method.
+/// Represents the concrete product
+/// in the Factory Method
+/// pattern.
 /// </summary>
 internal sealed class CreditCardService : IPaymentMethod
 {
+    /// <summary>
+    /// Executes the payment process.
+    /// </summary>
     public void Execute() =>
         Console.WriteLine("Credit Card... Running");
 }
