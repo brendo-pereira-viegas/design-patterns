@@ -2,6 +2,5 @@
 
 internal sealed class WindowsButton : IButton
 {
-    public void Paint() =>
-        Console.WriteLine("Drawing a Windows style button");
+    public string Paint() => "Drawing a Windows style button";
 }

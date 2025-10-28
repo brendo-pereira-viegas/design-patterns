@@ -1,3 +1,3 @@
 ﻿namespace DesignPatterns.AbstractFactory.Interfaces;
 
-internal interface IButton { void Paint(); }
+internal interface IButton { string Paint(); }

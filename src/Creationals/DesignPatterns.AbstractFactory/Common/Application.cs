@@ -7,6 +7,5 @@ internal sealed class Application
     internal Application(IGUIFactory factory) =>
         _button = factory.CreateButton();
 
-    internal void RenderUI() =>
-        _button.Paint();
+    internal string RenderUI() => _button.Paint();
 }
