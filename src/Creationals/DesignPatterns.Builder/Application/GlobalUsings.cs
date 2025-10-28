@@ -1,2 +1,2 @@
-﻿global using DesignPatterns.Builder.Models;
-global using DesignPatterns.Builder.Patterns;
+﻿global using DesignPatterns.Builder.Builders;
+global using DesignPatterns.Builder.Models;

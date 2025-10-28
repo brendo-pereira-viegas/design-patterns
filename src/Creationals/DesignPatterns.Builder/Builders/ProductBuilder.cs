@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Builder.Patterns;
+﻿namespace DesignPatterns.Builder.Builders;
 
 internal class ProductBuilder
 {
