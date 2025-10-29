@@ -1,9 +1,11 @@
-﻿PaymentMethodFactory
+﻿Console.WriteLine(PaymentMethodFactory
     .Create(PaymentType.DEBIT_CARD)?
-    .Execute();
+    .Execute()
+);
 
-PaymentMethodFactory
+Console.WriteLine(PaymentMethodFactory
     .Create(PaymentType.CREDIT_CARD)?
-    .Execute();
+    .Execute()
+);
 
 Console.ReadKey();
