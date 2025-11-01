@@ -2,5 +2,5 @@
 
 internal sealed class DebitCardService : IPaymentMethod
 {
-    public string Execute() => "Debit Card... Running";
+    public string ProcessPayment() => "Debit Card... Running";
 }

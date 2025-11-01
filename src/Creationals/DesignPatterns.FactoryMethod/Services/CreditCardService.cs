@@ -2,5 +2,5 @@
 
 internal sealed class CreditCardService : IPaymentMethod
 {
-    public string Execute() => "Credit Card... Running";
+    public string ProcessPayment() => "Credit Card... Running";
 }

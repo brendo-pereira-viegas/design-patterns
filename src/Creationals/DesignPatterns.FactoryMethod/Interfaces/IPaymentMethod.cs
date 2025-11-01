@@ -1,3 +1,3 @@
 ﻿namespace DesignPatterns.FactoryMethod.Interfaces;
 
-internal interface IPaymentMethod { string Execute(); }
+internal interface IPaymentMethod { string ProcessPayment(); }
