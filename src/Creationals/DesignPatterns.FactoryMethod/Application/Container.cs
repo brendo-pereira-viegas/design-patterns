@@ -4,14 +4,10 @@ internal static class Container
 {
     internal static void Execute()
     {
-        Console.WriteLine(PaymentMethodFactory
-            .Create(1)?
-            .ProcessPayment()
-        );
+        IPaymentMethod? debitCard = PaymentMethodFactory.Create(1);
+        Console.WriteLine(debitCard?.ProcessPayment());
 
-        Console.WriteLine(PaymentMethodFactory
-            .Create(2)?
-            .ProcessPayment()
-        );
+        IPaymentMethod? creditCard = PaymentMethodFactory.Create(2);
+        Console.WriteLine(creditCard?.ProcessPayment());
     }
 }
