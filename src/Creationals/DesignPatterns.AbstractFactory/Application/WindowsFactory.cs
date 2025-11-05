@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.AbstractFactory.Factories;
+﻿namespace DesignPatterns.AbstractFactory.Application;
 
 internal sealed class WindowsFactory : IGUIFactory
 {
