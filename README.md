@@ -13,13 +13,13 @@
    </p>
 </section>
 
-<ul>
-   <li>
-      <section>
+<section>
+   <ul>
+      <li>
          <strong>Creationals</strong>: These patterns focus on
          <strong>how objects are created</strong>, abstracting the process to
          make the code more <strong>flexible and reusable</strong>, while hiding
          the implementation and easing adaptation to changes.
-      </section>
-   </li>
-</ul>
+      </li>
+   </ul>
+</section>
