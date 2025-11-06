@@ -9,10 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creationals", "Creationals"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.FactoryMethod", "src\Creationals\DesignPatterns.FactoryMethod\DesignPatterns.FactoryMethod.csproj", "{4627934B-D445-4C8B-B36D-E42DB396F7CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.AbstractFactory", "src\Creationals\DesignPatterns.AbstractFactory\DesignPatterns.AbstractFactory.csproj", "{9D555AB5-5CAB-4462-979F-14CDDA01738B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Builder", "src\Creationals\DesignPatterns.Builder\DesignPatterns.Builder.csproj", "{56B17456-9AB0-4934-823C-97A13E636B67}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Prototype", "src\Creationals\DesignPatterns.Prototype\DesignPatterns.Prototype.csproj", "{934D8D61-820C-49FC-B420-ADC493701201}"
 EndProject
 Global
@@ -25,14 +21,6 @@ Global
 		{4627934B-D445-4C8B-B36D-E42DB396F7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4627934B-D445-4C8B-B36D-E42DB396F7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4627934B-D445-4C8B-B36D-E42DB396F7CD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D555AB5-5CAB-4462-979F-14CDDA01738B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D555AB5-5CAB-4462-979F-14CDDA01738B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D555AB5-5CAB-4462-979F-14CDDA01738B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D555AB5-5CAB-4462-979F-14CDDA01738B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{56B17456-9AB0-4934-823C-97A13E636B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{56B17456-9AB0-4934-823C-97A13E636B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{56B17456-9AB0-4934-823C-97A13E636B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{56B17456-9AB0-4934-823C-97A13E636B67}.Release|Any CPU.Build.0 = Release|Any CPU
 		{934D8D61-820C-49FC-B420-ADC493701201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{934D8D61-820C-49FC-B420-ADC493701201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{934D8D61-820C-49FC-B420-ADC493701201}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -44,8 +32,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9B0B6DD9-A704-48DD-9F0F-E47EF4465282} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{4627934B-D445-4C8B-B36D-E42DB396F7CD} = {9B0B6DD9-A704-48DD-9F0F-E47EF4465282}
-		{9D555AB5-5CAB-4462-979F-14CDDA01738B} = {9B0B6DD9-A704-48DD-9F0F-E47EF4465282}
-		{56B17456-9AB0-4934-823C-97A13E636B67} = {9B0B6DD9-A704-48DD-9F0F-E47EF4465282}
 		{934D8D61-820C-49FC-B420-ADC493701201} = {9B0B6DD9-A704-48DD-9F0F-E47EF4465282}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
