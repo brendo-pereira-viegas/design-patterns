@@ -4,10 +4,10 @@ internal static class Container
 {
     internal static void Execute()
     {
-        Address address = new() { PostalCode = "87654-029" };
-        Console.WriteLine($"Address: {address.PostalCode}");
+        Document original = new() { Title = "Introduction" };
+        Console.WriteLine(original.Title);
 
-        Address clone = (Address)address.Clone();
-        Console.WriteLine($"Prototype: {clone.PostalCode = "55555-555"}");
+        Document clone = (Document)original.Clone();
+        Console.WriteLine(clone.Title = "Conclusion");
     }
 }
