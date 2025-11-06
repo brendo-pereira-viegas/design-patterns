@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.FactoryMethod.Services;
+﻿namespace DesignPatterns.FactoryMethod.Models;
 
 internal sealed class SMSNotification : INotification
 {
