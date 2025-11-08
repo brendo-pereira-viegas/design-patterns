@@ -1,2 +1,9 @@
-﻿Console.WriteLine("Hello World!");
+﻿SQLServer
+    .GetInstance()
+    .Connect();
+
+SQLServer
+    .GetInstance()
+    .Disconnect();
+
 Console.ReadKey();
