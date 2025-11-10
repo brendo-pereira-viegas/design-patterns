@@ -16,11 +16,7 @@
 <section>
    <ul>
       <li>
-         <strong>Creationals</strong>: These patterns focus on 
-         <strong>how objects are created</strong>, abstracting <br />
-         the process to make the code more <strong>flexible and
-         reusable</strong>, while hiding the <br />
-         implementation and easing adaptation to changes.
+         Creationals: These patterns focus on how objects are created, abstracting the process to make the code more flexible and reusable, while hiding the implementation and easing adaptation to changes. They centralize object creation logic to improve consistency. They also support lazy initialization, reducing unnecessary resource usage..
       </li>
    </ul>
 </section>
