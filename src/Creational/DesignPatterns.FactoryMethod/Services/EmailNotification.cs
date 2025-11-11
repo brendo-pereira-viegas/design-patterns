@@ -1,6 +1,6 @@
-﻿namespace DesignPatterns.FactoryMethod.Models;
+﻿namespace DesignPatterns.FactoryMethod.Services;
 
-internal sealed class EmailNotification : INotification
+public sealed class EmailNotification : INotification
 {
     public void Send()
     {

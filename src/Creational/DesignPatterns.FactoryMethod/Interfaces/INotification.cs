@@ -1,3 +1,3 @@
 ﻿namespace DesignPatterns.FactoryMethod.Interfaces;
 
-internal interface INotification { void Send(); }
+public interface INotification { void Send(); }

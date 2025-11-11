@@ -1,8 +1,8 @@
 ﻿namespace DesignPatterns.FactoryMethod.Application;
 
-internal static class NotificationFactory
+public static class NotificationFactory
 {
-    internal static INotification? Create(int notification) =>
+    public static INotification? Create(int notification) =>
         notification switch
         {
             1 => new SMSNotification(),
