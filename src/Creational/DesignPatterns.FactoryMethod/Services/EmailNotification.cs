@@ -4,7 +4,7 @@ public sealed class EmailNotification : INotification
 {
     public void Send()
     {
-        string message = "Send e-mail notification";
-        Console.WriteLine(message);
+        string message = "Send email notification";
+        Console.WriteLine($"{message}\n");
     }
 }
