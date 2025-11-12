@@ -1,0 +1,2 @@
+﻿global using DesignPatterns.AbstractFactory.Interfaces;
+global using DesignPatterns.AbstractFactory.Services;
