@@ -4,7 +4,7 @@ public sealed class SMSNotification : INotification
 {
     public void Send()
     {
-        string message = "Send SMS notification";
+        string message = "Send SMS...";
         Console.WriteLine($"{message}\n");
     }
 }

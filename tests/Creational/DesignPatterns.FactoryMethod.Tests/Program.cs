@@ -1,9 +1,9 @@
-﻿NotificationFactory
-    .Create(1)?
+﻿new SMSFactory()
+    .Create()
     .Send();
 
-NotificationFactory
-    .Create(2)?
+new EmailFactory()
+    .Create()
     .Send();
 
 Console.ReadKey();
