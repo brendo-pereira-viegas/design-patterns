@@ -4,11 +4,19 @@ public sealed class SQLServer : IDatabase
 {
     private static SQLServer? s_instance;
 
-    public void Connect() =>
-        Console.WriteLine("Connecting...\n");
+    private SQLServer() { }
 
-    public void Disconnect() =>
-        Console.WriteLine("Disconnecting...\n");
+    public void Connect()
+    {
+        string message = "Connecting...";
+        Console.WriteLine($"{message}\n");
+    }
+
+    public void Disconnect()
+    {
+        string message = "Disconnect...";
+        Console.WriteLine($"{message}\n");
+    }
 
     public static SQLServer GetInstance() =>
         s_instance ??= new SQLServer();
