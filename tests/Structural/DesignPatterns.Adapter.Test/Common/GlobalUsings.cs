@@ -1,2 +1,2 @@
 ﻿global using DesignPatterns.Adapter.Application;
-global using DesignPatterns.Adapter.Models;
+global using DesignPatterns.Adapter.Services;

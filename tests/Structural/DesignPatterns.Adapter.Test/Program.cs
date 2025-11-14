@@ -5,6 +5,6 @@ smtp.Send();
 // New implementation
 AmazonSES amazonSES = new();
 AmazonSESAdapter amazonAdapter = new(amazonSES);
-amazonAdapter.Send();
 
+amazonAdapter.Send();
 Console.ReadKey();
