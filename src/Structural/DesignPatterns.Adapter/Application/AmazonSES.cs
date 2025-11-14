@@ -1,10 +1,10 @@
-﻿namespace DesignPatterns.Adapter.Models;
+﻿namespace DesignPatterns.Adapter.Application;
 
 public sealed class AmazonSES
 {
     public void SendEmail()
     {
-        string message = "Send e-mail with AmazonSES";
+        string message = "Send AmazonSES...";
         Console.WriteLine($"{message}\n");
     }
 }

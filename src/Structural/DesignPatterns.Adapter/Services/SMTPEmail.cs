@@ -1,10 +1,10 @@
-﻿namespace DesignPatterns.Adapter.Models;
+﻿namespace DesignPatterns.Adapter.Services;
 
 public sealed class SMTPEmail : IEmailService
 {
     public void Send()
     {
-        string message = "Send e-mail with SMTP";
+        string message = "Send SMTP...";
         Console.WriteLine($"{message}\n");
     }
 }
